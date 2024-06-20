@@ -9,5 +9,9 @@ public class Base{
 //        System.out.println(company+ copyrightSymbol);
 //        System.out.println("I am "+ age+ " years old");
 
+        boolean isStudent=true;
+        boolean isLibraryMember=false;
+        System.out.println(isStudent || isLibraryMember);
+
     }
 }
