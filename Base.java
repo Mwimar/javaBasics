@@ -1,6 +1,7 @@
 public class Base{
        static int age;
     public static void main(String[] args){
+<<<<<<< HEAD
         String company="Webdon inc";
         char copyrightSymbol='\u00A9';
         int num1=50;
@@ -28,5 +29,10 @@ public class Base{
         System.out.println(str1.equalsIgnoreCase(str3));
 
 
+=======
+       age=26;
+       age=30;
+        System.out.println("I am "+ age+ " years old");
+>>>>>>> 3436a850c53227437397ff7d7b1cc36e25e1114e
     }
 }
