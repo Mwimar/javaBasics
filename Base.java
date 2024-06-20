@@ -13,5 +13,10 @@ public class Base{
         boolean isLibraryMember=false;
         System.out.println(isStudent && isLibraryMember);
 
+        int dig1=5;
+        System.out.println(dig1++);
+        System.out.println(dig1);
+        System.out.println(++dig1);
+
     }
 }
