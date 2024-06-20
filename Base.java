@@ -11,7 +11,7 @@ public class Base{
 
         boolean isStudent=true;
         boolean isLibraryMember=false;
-        System.out.println(isStudent || isLibraryMember);
+        System.out.println(isStudent && isLibraryMember);
 
     }
 }
