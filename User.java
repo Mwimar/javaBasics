@@ -5,5 +5,11 @@ public class User{
         String stats="I am a backend developer";
         Scanner scanner=new Scanner(System.in);
 
+        System.out.println("Howdy ?");
+
+       String newStart= scanner.nextLine();
+        System.out.println(newStart);
+        scanner.close();
+
     }
 }
