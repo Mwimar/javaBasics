@@ -4,10 +4,19 @@ public class User{
     public static void main(String[] args){
         Scanner scanner=new Scanner(System.in);
 
-        System.out.print("Howdy ?");
-       String newStart= scanner.nextLine();
+        System.out.print("Who it be ?");
+       String name= scanner.nextLine();
 
-        System.out.print(newStart);
+
+        System.out.printf("Wassup %s, How old are you?",name);
+       int age= scanner.nextInt();
+
+        System.out.printf("%d is a perfect age. Which languages do you like?",age);
+        scanner.nextLine();
+        String language=scanner.nextLine();
+
+        System.out.printf("%s is good for backend development", language);
+
 
         scanner.close();
 
