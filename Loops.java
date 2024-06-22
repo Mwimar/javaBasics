@@ -6,12 +6,17 @@ public class Loops{
 //            sum+=numbers[index];
 //        }
 
-        for(int number=1; number<=10; number++){
-            for(int multiplier=1; multiplier<=10; multiplier++){
-                System.out.printf("%d X %d = %d \n", number,multiplier, number*multiplier);
+//        for(int number=1; number<=10; number++){
+//            for(int multiplier=1; multiplier<=10; multiplier++){
+//                System.out.printf("%d X %d = %d \n", number,multiplier, number*multiplier);
+//            }
+//
+//                   }
+        for (int number=1; number<50; number++){
+            if(number%2==1){
+                System.out.println(number);
             }
-
-                   }
+        }
 
     }
 }
