@@ -8,9 +8,9 @@ public class ArraysBase {
 //        vowels[2]='i';
 //        vowels[3]='o';
 //        vowels[4]='u';
-        char vowels[] = {'a', 'e', 'i', 'o', 'u'};
+        char vowels[] = {'i', 'u', 'a', 'o', 'e'};
+        Arrays.sort(vowels);
 
-        System.out.println(vowels[1]);
         System.out.println(Arrays.toString(vowels));
     }
 }
