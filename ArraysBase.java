@@ -10,7 +10,12 @@ public class ArraysBase {
 //        vowels[4]='u';
         char vowels[] = {'i', 'u', 'a', 'o', 'e'};
         Arrays.sort(vowels);
+        char key='e';
+        //binarySearch only works in sorted arrays;
+
+        int foundKey=Arrays.binarySearch(vowels,key);
 
         System.out.println(Arrays.toString(vowels));
+        System.out.println(foundKey);
     }
 }
