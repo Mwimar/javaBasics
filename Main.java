@@ -17,7 +17,7 @@ class Main {
                 
             }
         }
-//        System.out.println(Arrays.toString(ages));
+//        System.out.println(ArraysBase.toString(ages));
 
 
     }
