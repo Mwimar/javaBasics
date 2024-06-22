@@ -1,7 +1,9 @@
 public class Loops{
     public static void main(String[] args){
-        for(int num=0; num<=10; num++){
-            System.out.println(num);
+        int numbers[] = {1,2,3,4,5,6,7,8,9};
+        for(int index=1; index<numbers.length; index++){
+            System.out.println(numbers[index]);
         }
+        System.out.println(numbers.length);
     }
 }
