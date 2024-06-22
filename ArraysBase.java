@@ -12,12 +12,14 @@ public class ArraysBase {
         Arrays.sort(vowels);
         char key='u';
         //binarySearch only works in sorted arrays;
-        int startIndex=1;
-        int endIndex=3;
-        Arrays.fill(vowels, startIndex, endIndex,'x');
+//        int startIndex=1;
+//        int endIndex=3;
+//        Arrays.fill(vowels, startIndex, endIndex,'x');
 int numbers[] ={1,2,3,4,5};
-int copyOfNumbers[] = Arrays.copyOf(numbers, numbers.length);
-Arrays.fill(numbers,0);
+int startIndex=1;
+int endIndex=3;
+//int copyOfNumbers[] = Arrays.copyOf(numbers, numbers.length+2);
+int copyOfNumbers[] = Arrays.copyOfRange(numbers, startIndex, endIndex);
 
         System.out.println(Arrays.toString(numbers));
         System.out.println(Arrays.toString(copyOfNumbers));
