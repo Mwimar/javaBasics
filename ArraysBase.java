@@ -18,11 +18,12 @@ public class ArraysBase {
 int numbers[] ={1,2,3,4,5};
 int startIndex=1;
 int endIndex=3;
-//int copyOfNumbers[] = Arrays.copyOf(numbers, numbers.length+2);
-int copyOfNumbers[] = Arrays.copyOfRange(numbers, startIndex, endIndex);
+int copyOfNumbers[] = Arrays.copyOf(numbers, numbers.length);
+//int copyOfNumbers[] = Arrays.copyOfRange(numbers, startIndex, endIndex);
 
         System.out.println(Arrays.toString(numbers));
-        System.out.println(Arrays.toString(copyOfNumbers));
+        System.out.println(Arrays.equals(numbers, copyOfNumbers));
+
 
 
 
