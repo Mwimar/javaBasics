@@ -12,11 +12,19 @@ public class Loops{
 //            }
 //
 //                   }
-        for (int number=1; number<50; number++){
-            if(number%2==1){
-                System.out.println(number);
-            }
+//        for (int number=1; number<50; number++){
+//            if(number%2==1){
+//                System.out.println(number);
+//            }
+//        }
+        int numbers []={3,7,3,9,6,1,2};
+
+        int sum=0;
+
+        for (int number:numbers){
+            sum+=number;
         }
+            System.out.println(sum);
 
     }
 }
