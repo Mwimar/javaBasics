@@ -9,8 +9,10 @@ public class ArraysLists{
         numbers.add(3);
         numbers.add(4);
         numbers.add(5);
+        numbers.remove(2);
+        System.out.println(numbers.toString());
 
 //        System.out.println(numbers.get(3).toString());
-        System.out.println(numbers.get(3));
+//        System.out.println(numbers.get(3));
     }
 }
