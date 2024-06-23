@@ -16,10 +16,15 @@ public class ArraysLists{
 //        numbers.clear();//clearing an array;
 //        numbers.set(2, Integer.valueOf(55));//updating an array value;
         numbers.sort(Comparator.naturalOrder()); //Sorting arrays;
-        numbers.sort(Comparator.reverseOrder()); // sorting arrays in reverse order;
-        System.out.println(numbers.toString());
-        System.out.println(numbers.size());
-        System.out.println(numbers.contains(Integer.valueOf(7)));
+//        numbers.sort(Comparator.reverseOrder()); // sorting arrays in reverse order;
+//        System.out.println(numbers.toString());
+//        System.out.println(numbers.size());
+//        System.out.println(numbers.contains(Integer.valueOf(7)));
+//        numbers.clear();
+//        System.out.println(numbers.isEmpty());
+        numbers.forEach(number ->{
+            System.out.println(number*2);
+        });
 
 //        System.out.println(numbers.get(3).toString());
 //        System.out.println(numbers.get(3));
