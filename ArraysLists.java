@@ -11,8 +11,9 @@ public class ArraysLists{
         numbers.add(5);
 //        numbers.remove(3);
 
-//        numbers.remove(Integer.valueOf(3));
-        numbers.clear();
+//        numbers.remove(Integer.valueOf(3)); // removing an array value
+//        numbers.clear();//clearing an array;
+        numbers.set(2, Integer.valueOf(55));//updating an array value;
         System.out.println(numbers.toString());
 
 //        System.out.println(numbers.get(3).toString());
