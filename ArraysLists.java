@@ -16,6 +16,7 @@ public class ArraysLists{
 //        numbers.clear();//clearing an array;
 //        numbers.set(2, Integer.valueOf(55));//updating an array value;
         numbers.sort(Comparator.naturalOrder()); //Sorting arrays;
+        numbers.sort(Comparator.reverseOrder()); // sorting arrays in reverse order;
         System.out.println(numbers.toString());
 
 //        System.out.println(numbers.get(3).toString());
