@@ -19,6 +19,7 @@ public class ArraysLists{
         numbers.sort(Comparator.reverseOrder()); // sorting arrays in reverse order;
         System.out.println(numbers.toString());
         System.out.println(numbers.size());
+        System.out.println(numbers.contains(Integer.valueOf(7)));
 
 //        System.out.println(numbers.get(3).toString());
 //        System.out.println(numbers.get(3));
