@@ -17,14 +17,21 @@ public class Loops{
 //                System.out.println(number);
 //            }
 //        }
-        int numbers []={3,7,3,9,6,1,2};
+//        int numbers []={3,7,3,9,6,1,2};
+//
+//        int sum=0;
+//
+//        for (int number:numbers){
+//            sum+=number;
+//        }
+//            System.out.println(sum);
+        int number=5;
+        int multiplier=1;
 
-        int sum=0;
-
-        for (int number:numbers){
-            sum+=number;
+        while(multiplier<=10){
+            System.out.printf("%d X %d = %d \n", number, multiplier, number*multiplier);
+            multiplier++;
         }
-            System.out.println(sum);
 
     }
 }
