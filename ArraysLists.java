@@ -17,15 +17,15 @@ public class ArraysLists{
 //        numbers.set(2, Integer.valueOf(55));//updating an array value;
         numbers.sort(Comparator.naturalOrder()); //Sorting arrays;
 //        numbers.sort(Comparator.reverseOrder()); // sorting arrays in reverse order;
-//        System.out.println(numbers.toString());
 //        System.out.println(numbers.size());
 //        System.out.println(numbers.contains(Integer.valueOf(7)));
 //        numbers.clear();
 //        System.out.println(numbers.isEmpty());
+        System.out.println("Before: "+numbers.toString());
         numbers.forEach(number ->{
-            System.out.println(number*2);
+            numbers.set(numbers.indexOf(number), number*2);
         });
-
+        System.out.println("After: "+numbers.toString());
 //        System.out.println(numbers.get(3).toString());
 //        System.out.println(numbers.get(3));
     }
