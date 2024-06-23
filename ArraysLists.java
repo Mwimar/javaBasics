@@ -10,6 +10,7 @@ public class ArraysLists{
         numbers.add(4);
         numbers.add(5);
 
-        System.out.println(numbers.toString());
+//        System.out.println(numbers.get(3).toString());
+        System.out.println(numbers.get(3));
     }
 }
