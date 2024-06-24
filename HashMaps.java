@@ -4,5 +4,8 @@ public class HashMaps{
 
         HashMap<String,Integer> examScores= new HashMap<String,Integer>()
 
+        examScores.put("Biology", 90);
+        examScores.put("Chemistry", 79);
+        examScores.put("Physics", 85);
     }
 }
