@@ -15,8 +15,12 @@ public class HashMaps{
 //        System.out.println(examScores.get("Chemistry"));// printing individual item
 //        System.out.println(examScores.getOrDefault("Kiswahili",76));
 //        System.out.println(examScores.size());
-        System.out.println(examScores.toString());
-        System.out.println(examScores.containsKey("Biology"));
-        System.out.println(examScores.containsValue(81));
+//        System.out.println(examScores.toString());
+//        System.out.println(examScores.containsKey("Biology"));
+//        System.out.println(examScores.containsValue(Integer.valueOf(81)));
+//        System.out.println(examScores.isEmpty());
+        examScores.forEach((subject,score)->{
+            System.out.println(subject+ " "+ score);
+        });
     }
 }
