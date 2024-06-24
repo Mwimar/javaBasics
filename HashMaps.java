@@ -9,10 +9,10 @@ public class HashMaps{
         examScores.put("Physics", 85);
         examScores.putIfAbsent("Physics", 68);// replaces if value is absent;
         examScores.replace("Biology",81);
-        examScores.clear();
+//        examScores.clear();
 //
 //        System.out.println(examScores.get("Chemistry"));// printing individual item
 //        System.out.println(examScores.getOrDefault("Kiswahili",76));
-        System.out.println(examScores.toString());
+        System.out.println(examScores.size());
     }
 }
