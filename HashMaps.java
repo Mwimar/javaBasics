@@ -9,5 +9,6 @@ public class HashMaps{
         examScores.put("Physics", 85);
 
         System.out.println(examScores.toString());
+        System.out.println(examScores.get("Chemistry"));// printing individual item
     }
 }
