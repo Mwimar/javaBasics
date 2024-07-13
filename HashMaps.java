@@ -21,7 +21,7 @@ public class HashMaps{
 //        System.out.println(examScores.isEmpty());
         examScores.forEach((subject,score)->{
 //            System.out.println(subject+ " "+ score);
-            examScores.replace(subject,score-20);
+            examScores.replace(subject,score+20);
         });
         System.out.println(examScores.toString());
     }

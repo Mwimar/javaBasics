@@ -1,10 +1,10 @@
-import java.util.Scanner;
 
+import java.util.Scanner;
 public class User{
     public static void main(String[] args){
         Scanner scanner=new Scanner(System.in);
 
-        System.out.print("Who it be ?");
+        System.out.print("Who is it be ?");
        String name= scanner.nextLine();
 
 
