@@ -15,10 +15,9 @@ int age=3;
 //for (int i=0; i<=8; i++){
 //    System.out.println(i);
 //}
-        for(int i=1; i<=5; i++){
-
-            System.out.println(i +" - "+ (i*i));
-        }
+        double temperature = 25.5;
+        System.out.println("Celsius:" + temperature);
+        System.out.println("Kelvin:" + (temperature+ 273));
 
     }
 }
